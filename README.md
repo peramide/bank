@@ -12,3 +12,17 @@ It normalizes the input (removes spaces, ignores case).
 Based on the first few characters, it determines your “reward.”
 
 It prints the result to the console.
+
+## How to Test the Code
+_The test file "test_bank.py" handles that!_
+
+Here’s how to test the code manually:
+
+Run the program with python bank.py. Type Hello and press Enter. The program should output:
+$0 
+Run the program with python bank.py. Type Hello, Newman and press Enter. The program should output:
+$0
+Run the program with python bank.py. Type How you doing? and press Enter. The program should output
+$20
+Run the program with python bank.py. Type What's happening? and press Enter. The program should output
+$100
